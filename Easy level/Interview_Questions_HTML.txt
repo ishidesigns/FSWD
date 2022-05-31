@@ -14,7 +14,7 @@ HTML Questions
 -> this tag contains the metadata(information). 
 -> it specifies character set, page description, keywords, author of page, viewport settings.
 
-5. Difference between div adn span tag.
+5. Difference between div and span tag.
 -> div by default display property is block 
 -> span by default display property is inline
 
@@ -45,5 +45,3 @@ HTML Questions
             - its id is same as that of input.
             - provides autocomplete feature. users see a dropdown list of pre defined options as input data.
              
-
-
