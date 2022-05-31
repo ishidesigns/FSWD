@@ -1,0 +1,49 @@
+HTML Questions 
+1.  What is html.
+-> html is hyper text markup language. 
+-> it is used to build basic structure of a webpage.
+
+2. what are tags and attributes.
+-> tag rpresents an element in html file
+-> attribute defines the characteristics of that element.
+
+3. What is DOCTYPE in Html.
+-> it is a tag used to define the version of html used.
+
+4. What is meta data in Html.
+-> this tag contains the metadata(information). 
+-> it specifies character set, page description, keywords, author of page, viewport settings.
+
+5. Difference between div adn span tag.
+-> div by default display property is block 
+-> span by default display property is inline
+
+6. html5 updates.
+-> align attribute removed from p tag and introduced text-align property.
+-> semantic tags introduced for better convenience - header, nav(navigation bar), main, section, 
+   article, aside(side menu), footer, audio, video, area, base, etc.
+   (these are semantic tags/ layout tags - gives meaning to the content). 
+
+7. Difference between textarea and textbox.
+-> textarea - allows multi line text input.
+-> textbox - allows one line of text.
+
+8. what are the new form elements in HTML5.
+-> datalist, keygen, output, progress, meter.
+-> meter - provides for a gauge, displaying a general value within a range.
+         - min and max values are provided by us and required value between min and max.
+         - min value = 0 and max value = 1(default).
+-> progress - progress bar indicates how complete a task is.
+            - max and value attributes.
+            - displays progress in %.
+-> output - accept and display the result of a calculation.
+          - attribute for is used to referenceid of form fields whose value went into calculation
+-> keygen - xcontrol for generating public-private key pair.
+          - attribute challenge specifies a string submitted along with public key.
+          - attribute keytype specifies type of key generated(kkeytype value is rsa(algo used in public key cryptography))
+-> datalist - specifies a list of pre defined options for <input> element.
+            - its id is same as that of input.
+            - provides autocomplete feature. users see a dropdown list of pre defined options as input data.
+             
+
+

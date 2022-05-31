@@ -1,0 +1,94 @@
+CSS Questions
+1. what is CSS.
+-> CSS stands for cascading style sheets.
+-> they are used for better user experience by adding colors and different styles to the webpage.
+
+2. How to add CSS in Html.
+-> 3 approaches - inline, internal and external
+inline - done using style attribute 
+internal - done using style tag inside head tag
+external - done using link tag in head and creating a css file separately
+
+3. ID vs Class selector.
+-> id selector - it is unique for a tag 
+               - indicated with (#) operator
+-> class selector - multiple classes can be there for one tag
+                  - - indicated with (.) operator
+
+4. what are inline and block elements.
+-> inline elements - tags which do not change the line
+-> block elements - tags which start with a new line.
+
+5. Center a div inside of other div.
+-> check CenterAlignChildDiv.html file
+
+6. CSS box Model.
+-> it has 4 parts - margin, border, padding, content
+-> margin - space from other elements
+-> border - the border of a content
+-> padding - internal spacing between border and content
+-> content - what the element is having
+
+7. Selectors in css
+-> id selector    - it is unique for a tag 
+                  - indicated with (#) operator
+
+-> class selector - multiple classes can be there for one tag
+                  - indicated with (.) operator
+
+-> descendant selector - indicated with space( ) operator
+                       - ex. div p {} will work on all p's inside div
+
+-> child selector - indicated with (>) operator
+                  - ex div > p {} will apply to p's which are children of div
+-> sibling selector - 
+    1. adjacent sibling selector - indicated by (+) operator
+                                 - div + p {} applies to all p's coming immediately after div
+    2. general sibling selector - indicated by (~) operator
+                                - div ~ p {} applies to all p's coming after div
+
+-> universal selector - indicated n=by (*) operator
+                      - it applies styles to all elements which are inside body
+
+-> pseudo selector - indicated by (:) operator for pseudo class
+                   - ex input:focus, input:disabled, input:hover, a:active, etc.
+                   - indicated by (::) operator for pseudo elements
+                   - ::after, ::first-letter, etc.
+
+8. differenciate between grid and flexbox.
+-> layout models in CSS
+-> grid created 2D layouts
+-> flexbox used to create 1D layouts
+
+9. Advantages and Disadvantages of CSS.
+-> Advantages
+    - presents the elements in a better way
+    - responsiveness can be achieved
+-> Disadvantages
+    - no parent selector
+    - browser compatibility
+
+10. CSS preprocessor.
+-> tool used to extend basic functionality of vanilla css.
+-> used to complete logical syntaxes like mixins, code nesting, functions, etc.
+
+11. Pseudo elements and Pseudo classes
+-> Pseudo elements - create items that do not exist in document there
+-> Pseudo classes - selects regular elements but under certain conditions.
+
+12. Units in CSS
+-> px, em(1em = 16px), %.
+
+13. Difference between Adaptive and Responsive designs.
+-> adaptive design 
+    - fixed layout
+    - resizing browser window has no effect. 
+    - uses standard screen sizes - 320px, 480px, 720px, 960px, 1200px, 1600px.
+-> responsive design 
+    - shows content on available browser space.
+    - dynamically accomodate the window.
+    - uses css media queries depending on device screen size.
+
+14. Difference between visibility: hidden and display : none
+-> visibility : hidden - element is available but not visible.
+-> display : none - element is neither available nor visible.

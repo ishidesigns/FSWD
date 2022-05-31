@@ -1,0 +1,29 @@
+JS Questions
+1.  What is js.
+-> this is a programming language which is used to add behaviour to web page.
+
+2. What are the different data types present in javascript.
+-> Boolean, Null, Undefined, Number, BigInt, String, Symbol
+
+3. Difference b/w var,let and const.
+-> var - functional/ local/ global scope, can be updated and redeclared, can be accessed without initialization, default value - undefined
+-> let - block scope, can be updated but cannot be redeclared, cannot be accessed without initialization and returns error
+-> const - block scope, cannot be updated and redeclared, cannot be accessed without initialization
+
+4. Explain Hoisting in javascript.
+-> moving all the variable to the top before executing the code
+
+5. Output for :- 
+var a; 
+console.log(a); 
+a = 10;
+
+-> undefined
+
+6. What is the difference between == and ===.
+-> == - only compares the value and not datatype. 
+      - ex. 100 == "100" is true
+-> === - checks the value and strictly checks the datatype also
+       - ex. 100 === "100" is false
+
+7. 
