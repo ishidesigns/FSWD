@@ -17,5 +17,6 @@ In DOM we can see the abpove contents in top to Down arrangement.
 
 #Virtual DOM: Virtual DOM is the virtual representation of the User Interface on the other hand real DOM is synced with react DOM and will be kept in memory.
 
-Example: Suppose we have a college website in which we want to check courses of specific branch let say B.Tech CSE then virtual DOM will load only that specific branch. Means
-it will not load other branch so that loading time will be decreased and we can make our website more User Friendly. Best Example React JS is providing the feature of Virtual DOM.
+Example: Suppose we have a college website in which we want to check courses of specific branch let say B.Tech CSE then virtual DOM will load only that specific branch. 
+Means it will not load other branch so that loading time will be decreased and we can make our website more User Friendly. 
+Best Example React JS is providing the feature of Virtual DOM.
