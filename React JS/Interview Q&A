@@ -20,3 +20,8 @@ In DOM we can see the abpove contents in top to Down arrangement.
 Example: Suppose we have a college website in which we want to check courses of specific branch let say B.Tech CSE then virtual DOM will load only that specific branch. 
 Means it will not load other branch so that loading time will be decreased and we can make our website more User Friendly. 
 Best Example React JS is providing the feature of Virtual DOM.
+
+
+#2nd Part Answer: ReactJS using diff algorithm compares both the Virtual DOM to find the minimum number of steps to update the Real DOM.
+
+
