@@ -25,3 +25,21 @@ Best Example React JS is providing the feature of Virtual DOM.
 #2nd Part Answer: ReactJS using diff algorithm compares both the Virtual DOM to find the minimum number of steps to update the Real DOM.
 
 
+#2. What is JSX? Does Browser understand JSX Directly. It is mendatory to use JSX in react Application?
+Answer: JSX stands for Java Script and XML widely used in React Application. Basically it is the Combination of Javascript , CSS & HTML. 
+But the browser does not understand this JSX because it's not valid JavaScript code. 
+This is because we're assigning an HTML tag to a variable that is not a string but just HTML code.
+
+As JSX Code is easy to write because classical render code method was lengthy, example:
+
+class JSXDemo extends React.Component {
+    render() {
+        return <h1>This is JSX</h1>;
+    }
+}
+//JSX Way Code
+
+ReactDOM.render(<JSXDemo />, document.getElementById('root'));
+//Classic render
+
+
