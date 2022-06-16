@@ -23,6 +23,7 @@ Best Example React JS is providing the feature of Virtual DOM.
 
 
 #2nd Part Answer: ReactJS using diff algorithm compares both the Virtual DOM to find the minimum number of steps to update the Real DOM.
+-------------------------------
 
 
 #2 Question. What is JSX? Does Browser understand JSX Directly. It is mendatory to use JSX in react Application?
@@ -41,9 +42,19 @@ class JSXDemo extends React.Component {
 
 ReactDOM.render(<JSXDemo />, document.getElementById('root'));
 //Classic render
+-------------------------
 
 #3 Question: How many types of Components are there in React?
 Answer: In React JS there are 2 types of Components: 1:Class Component, 2: Functional Component. As per official Documentation of React it is suggested 
 to use Functional Component because it has the hooks concept for state management.
+-------------------------
+
+#4 Question: ComponentwillUnmount is used for? Give a use case to elaborate the functionality?
+Answer: The componentWillUnmount() method allows us to execute the React code when the component gets destroyed or unmounted from the DOM (Document Object Model). 
+This method is called during the Unmounting phase of the React Life-cycle i.e before the component gets unmounted.
+--------------------------
+
+#5. What is difference between State/props? Props are mutable or not? Parent Component can change value of state in child component?
+Answer: 
 
 
