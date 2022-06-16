@@ -95,6 +95,14 @@ component in order to prevent rendering.
 
 --------------------------
 
+#8. useRef access element from virtual DOM or actual DOM?
+Answer: Refs should reference the actual DOM. One usage of Refs is integrating with third-party DOM libraries, so we can directly modify the DOM using Refs. 
+If Refs reference the virtual DOM, I don't think the demand can be meet.
+
+--------------------------
+
+
+
 
 
 
