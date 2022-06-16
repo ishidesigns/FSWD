@@ -55,6 +55,11 @@ This method is called during the Unmounting phase of the React Life-cycle i.e be
 --------------------------
 
 #5. What is difference between State/props? Props are mutable or not? Parent Component can change value of state in child component?
-Answer: 
+Answer: If I am talking about the main key difference then State is used to manage the changing of state on the other hand props are 
+used to pass data from parent component to child component. State is internal and controlled by the component itself while props are external and controlled 
+by whatever renders the component.
+
+First what is mutable, mutable are those in which changes are possible. But as per the definition of props these are using to pass values from parents 
+to child component. So props are not mutable they are immutable. But for your knowledge in React States are mutable as they are changable.
 
 
