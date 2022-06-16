@@ -120,6 +120,15 @@ Making it synchronous might leave the browser unresponsive and we will get alert
 
 --------------------------
 
+#11. When it is preferred to use uncontrolled component?
+Answer: Uncontrolled components form data is handled by the DOM itself, which is the source of truth. It then stores its own state internally and can query the DOM using a 'ref' to 
+find current value when you need it.
+
+Uncontrolled components can be easier to integrate React with non-React code and is often less code, 
+if you want to get something done quick use uncontrolled component.
+
+--------------------------
+
 
 
 
