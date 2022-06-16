@@ -1,5 +1,7 @@
 #1 Question. What is Virtual DOM? Which data structure is used for the comparison of actual DOM & Virtual DOM?
-Answer: First we should know what the DOM is : DOM Is also known as Domain Object Model. Also you can say It is the heierarchy structure or tree structure of the HTML Content like
+Answer: First we should know what the DOM is : DOM Is also known as Domain Object Model. 
+Also you can say It is the heierarchy structure or tree structure of the HTML Content like:
+
 <!Doctype html>
 <html>
 <head>
