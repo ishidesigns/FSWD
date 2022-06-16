@@ -62,4 +62,9 @@ by whatever renders the component.
 First what is mutable, mutable are those in which changes are possible. But as per the definition of props these are using to pass values from parents 
 to child component. So props are not mutable they are immutable. But for your knowledge in React States are mutable as they are changable.
 
+Using Refs Parent Component can change value of state in child component.
+--------------------------
+
+
+
 
