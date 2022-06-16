@@ -42,4 +42,8 @@ class JSXDemo extends React.Component {
 ReactDOM.render(<JSXDemo />, document.getElementById('root'));
 //Classic render
 
+#3 Question: How many types of Components are there in React?
+Answer: In React JS there are 2 types of Components: 1:Class Component, 2: Functional Component. As per official Documentation of React it is suggested 
+to use Functional Component because it has the hooks concept for state management.
+
 
