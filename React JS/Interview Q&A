@@ -86,6 +86,15 @@ Answer: React version 18 provides 15 hooks for developers.
 
 --------------------------
 
+#7. Difference between useMemo() and useCallback()?
+Answer: UseCallback is used to optimize the rendering behavior of your React function components, while useMemo is used to memoize expensive functions to 
+avoid having to call them on every render.
+
+useMemo returns the memo-ized value returned by the passed function & useCallback is useful when a component is passing a callback to its child 
+component in order to prevent rendering.
+
+--------------------------
+
 
 
 
