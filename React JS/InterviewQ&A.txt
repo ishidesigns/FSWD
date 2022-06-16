@@ -1,0 +1,145 @@
+1. What is Virtual DOM? Which data structure is used for the comparison of actual DOM & Virtual DOM?
+-> DOM is also known as Domain Object Model. 
+-> It is the heierarchy structure or tree structure of the HTML Content like:
+
+<!Doctype html>
+<html>
+  <head>
+    <title>
+      Ishika's Web Page
+    </title>
+  </head>
+<body>
+  <h1>
+    Welcome to the Ishidesigns Github Page
+  </h1>
+</body>
+<html>
+
+In DOM we can see the abpove contents in top to Down arrangement.
+
+-> Virtual DOM: Virtual DOM is the virtual representation of the User Interface.
+-> Actual/ Real DOM is synced with react DOM and will be kept in memory.
+
+-> Example: Suppose we have a college website in which we want to check courses of a specific branch let say B.Tech CSE,
+then virtual DOM will load only that specific branch means it will not load other branch.
+So that loading time will be decreased and we can make our website more User Friendly. 
+Best Example React JS is providing is the feature of Virtual DOM.
+
+#2nd Part Answer: ReactJS using diff algorithm compares both the Virtual DOM to find the minimum number of steps to update the Real DOM.
+-------------------------------
+
+2. What is JSX? Does Browser understand JSX Directly. It is mandatory to use JSX in react Application?
+-> JSX stands for Java Script and XML widely used in React Application. 
+-> It is the Combination of Javascript , CSS & HTML. 
+-> But the browser does not understand this JSX because it's not a valid JavaScript code. 
+-> This is because we're assigning an HTML tag to a variable that is not a string but just HTML code.
+
+As JSX Code is easy to write because classical render code method was lengthy, example:
+
+//JSX Way Code
+class JSXDemo extends React.Component {
+    render() {
+        return <h1>This is JSX</h1>;
+    }
+}
+
+//Classic render
+ReactDOM.render(<JSXDemo />, document.getElementById('root'));
+-------------------------
+
+3. How many types of Components are there in React?
+-> In React JS there are 2 types of Components: 
+    - Class Component
+    - Functional Component. 
+As per official Documentation of React it is suggested to use Functional Component because it has the hooks concept for state management.
+-------------------------
+
+4. ComponentwillUnmount is used for? Give a use case to elaborate the functionality?
+-> The componentWillUnmount() method allows us to execute the React code when the component gets destroyed or unmounted from the DOM (Document Object Model). 
+-> This method is called during the Unmounting phase of the React Life-cycle i.e before the component gets unmounted.
+--------------------------
+
+5. What is the difference between State/props? Props are mutable or not? Can Parent Component change the value of state in child component?
+-> State is used to manage the changing of state 
+-> State is internal and controlled by the component itself
+-> props are used to pass data from parent component to child component. 
+-> props are external and controlled 
+by whatever renders the component.
+
+-> First what is mutable, mutable are those objects in which changes are possible. 
+But as per the definition of props these are using to pass values from parent to child component. 
+So props  are immutable. React States are mutable as they are changable.
+
+-> Using Refs Parent Component can change value of state in child component.
+--------------------------
+
+6. How many types of hooks are there?
+-> React version 18 provides 15 hooks for developers.
+    1. useCallback
+    2. useContext
+    3. useDebugValue
+    4. useDeferredValue
+    5. useEffect
+    6. useId
+    7. useImperativeHandle
+    8. useInsertionEffect
+    9. useLayoutEffect
+    10. useMemo
+    11. useReducer
+    12. useRef
+    13. useState
+    14. useSyncExternalStore
+    15. useTransition
+--------------------------
+
+7. Difference between useMemo() and useCallback()?
+-> UseCallback is used to optimize the rendering behavior of your React function components.
+-> useCallback is useful when a component is passing a callback to its child component in order to prevent rendering.
+-> useMemo is used to memoize expensive functions to avoid having to call them on every render.
+-> useMemo returns the memo-ized value returned by the passed function.
+--------------------------
+
+8. useRef access element from virtual DOM or actual DOM?
+-> Refs should reference the actual DOM. One usage of Refs is integrating with the third-party DOM libraries, so we can directly modify the DOM using Refs. 
+If Refs reference the virtual DOM, I don't think the demand can be meet.
+--------------------------
+
+9. What is the relevance of dependancy array in useEffect hook?
+-> Dependency arrays are a concept that is tightly coupled to hooks in React (thus also to function components).
+Some hooks, like useEffect and useCallback have 2 arguments. The first one is a callback (a function), and the second one is the dependency array. 
+It takes the form of an array of variables.
+In the below example, [counter] is the dependency array of the useEffect hook:
+
+useEffect(() => {
+  console.log('Counter has value: ', counter);
+}, [counter]);
+--------------------------
+
+10. setState() method is sync or async? Why so?
+-> ReactJS sets its state asynchronously because it can result in an expensive operation. 
+Making it synchronous might leave the browser unresponsive and we will get alert message "Page unresponsive wait or Exit Page".
+--------------------------
+
+11. When is it preferred to use uncontrolled component?
+-> Uncontrolled components from data is handled by the DOM itself, which is the source of truth. 
+It then stores its own state internally and can query the DOM using a 'ref' to find current value when you need it.
+-> Uncontrolled components are easier to integrate React with non-React codes and is often less code, 
+if you want to get something done quick, we use uncontrolled component.
+--------------------------
+
+12. Uncontrolled components are used to access elements from Virtual DOM or actual DOM?
+-> I don't know.
+--------------------------
+
+13. Implement Like/Dislike functionality using a soingle counter on React UI.
+-> Please Find the Project on CodeSandBox by using link below:
+https://codesandbox.io/s/react-component-like-dislike-button-forked-0dz3j9
+--------------------------
+
+
+
+
+
+
+
