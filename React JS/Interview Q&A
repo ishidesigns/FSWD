@@ -101,6 +101,25 @@ If Refs reference the virtual DOM, I don't think the demand can be meet.
 
 --------------------------
 
+#9. What is the relevance of dependancy array in useEffect hook?
+Answer: Dependency arrays are a concept that is tightly coupled to hooks in React (thus also to function components).
+Some hooks, like useEffect and useCallback have 2 arguments. The first one is a callback (a function), and the second one is the dependency array. 
+It takes the form of an array of variables.
+
+In the below example, [counter] is the dependency array of the useEffect hook:
+
+useEffect(() => {
+  console.log('Counter has value: ', counter);
+}, [counter]);
+
+--------------------------
+
+#10. setState() method is sync or async? Why so?
+Answer: In simple words ReactJs sets its state asynchronously because it can result in an expensive operation. 
+Making it synchronous might leave the browser unresponsive and we will get alert message "Page unresponsive wait or Exit Page".
+
+--------------------------
+
 
 
 
