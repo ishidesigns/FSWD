@@ -27,3 +27,4 @@ a = 10;
        - ex. 100 === "100" is false
 
 7. What is closure?
+>>>>>>>>> ans
