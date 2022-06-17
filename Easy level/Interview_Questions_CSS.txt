@@ -92,3 +92,4 @@ external - done using link tag in head and creating a css file separately
 14. Difference between visibility: hidden and display : none
 -> visibility : hidden - element is available but not visible.
 -> display : none - element is neither available nor visible.
+

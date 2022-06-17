@@ -26,4 +26,4 @@ a = 10;
 -> === - checks the value and strictly checks the datatype also
        - ex. 100 === "100" is false
 
-7. 
+7. What is closure?
