@@ -129,7 +129,7 @@ if you want to get something done quick, we use uncontrolled component.
 --------------------------
 
 12. Uncontrolled components are used to access elements from Virtual DOM or actual DOM?
--> I don't know.
+-> Uncontrolled Components are accessing elements from Virtual DOM
 --------------------------
 
 13. Implement Like/Dislike functionality using a soingle counter on React UI.
