@@ -26,5 +26,17 @@ a = 10;
 -> === - checks the value and strictly checks the datatype also
        - ex. 100 === "100" is false
 
-7. What is closure?
->>>>>>>>> ans
+7. What is difference between value type and refernce type?
+=> Passing by value means that every time you assign a value to a variable, a copy of that value is created.
+      let a = 1;
+      let b = a;
+      b = b + 2;
+      console.log(a); // 1
+      console.log(b); // 3
+      
+   When creating an object you're given a reference to that object. If 2 variables hold the same reference, then changing the object reflects in both variables.
+      let x = [1];
+      let y = x;
+      y.push(2);
+      console.log(x); // [1, 2]
+      console.log(y); // [1, 2]
