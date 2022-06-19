@@ -27,7 +27,7 @@ a = 10;
        - ex. 100 === "100" is false
 
 7. What is difference between value type and refernce type?
-=> Passing by value means that every time you assign a value to a variable, a copy of that value is created.
+-> Passing by value means that every time you assign a value to a variable, a copy of that value is created.
       let a = 1;
       let b = a;
       b = b + 2;
@@ -40,3 +40,7 @@ a = 10;
       y.push(2);
       console.log(x); // [1, 2]
       console.log(y); // [1, 2]
+
+8. What are closures?
+-> combination of function with referenceto its surrounding state.
+-> gives access to outer function's scope from inner function.
