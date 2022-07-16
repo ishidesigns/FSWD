@@ -1,11 +1,12 @@
 JS Questions
+
 1.  What is js.
 -> this is a programming language which is used to add behaviour to web page.
 
 2. What are the different data types present in javascript.
 -> Boolean, Null, Undefined, Number, BigInt, String, Symbol
 
-3. Difference b/w var,let and const.
+3. Difference b/w var, let and const.
 -> var - functional/ local/ global scope, can be updated and redeclared, can be accessed without initialization, default value - undefined
 -> let - block scope, can be updated but cannot be redeclared, cannot be accessed without initialization and returns error
 -> const - block scope, cannot be updated and redeclared, cannot be accessed without initialization
@@ -34,7 +35,8 @@ a = 10;
       console.log(a); // 1
       console.log(b); // 3
       
-   When creating an object you're given a reference to that object. If 2 variables hold the same reference, then changing the object reflects in both variables.
+   When creating an object you're given a reference to that object. If 2 variables hold the same reference, 
+   then changing the object reflects in both variables.
       let x = [1];
       let y = x;
       y.push(2);
@@ -42,5 +44,45 @@ a = 10;
       console.log(y); // [1, 2]
 
 8. What are closures?
--> combination of function with referenceto its surrounding state.
+-> combination of function with reference to its surrounding state.
 -> gives access to outer function's scope from inner function.
+
+9. What are callbacks?
+-> A callback is just a function that's passed into another function, 
+with the expectation that the callback will be called at the appropriate time. 
+-> Callbacks are used to be the main way asynchronous functions are implemented in JavaScript.
+
+10. What are objects in JS?
+-> An object is a collection of related data and/or functionality. 
+-> These usually consist of several variables and functions 
+(which are called properties and methods when they are inside objects).
+
+-> Example, 
+const person = {
+  name: ['Bob', 'Smith'],
+  age: 32,
+  bio: function() {
+    console.log(`${this.name[0]} ${this.name[1]} is ${this.age} years old.`);
+  },
+  introduceSelf: function() {
+    console.log(`Hi! I'm ${this.name[0]}.`);
+  }
+};
+-> Accessed using dot notation and bracket notation
+-> using dot notation, person.name
+-> using bracket notation, person['name']
+
+11. splice and slice methods of arrays in JS?
+-> splice: 
+      - returns removed items 
+      - changes original array
+      - can take more than 1 argument
+-> slice : 
+      - returns selected items
+      - doesn't change original array
+      - takes 2 arguments
+
+
+9. Is JS single threaded? if yes, how is it asynchronous?
+-> Yes JS is single threaded.
+->
